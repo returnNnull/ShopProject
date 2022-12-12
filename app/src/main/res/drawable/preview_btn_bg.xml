@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#20Ffffff" />
+            <padding
+                android:bottom="@dimen/preview_btn_bg_padding"
+                android:left="@dimen/preview_btn_bg_padding"
+                android:right="@dimen/preview_btn_bg_padding"
+                android:top="@dimen/preview_btn_bg_padding" />
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/black" />
+        </shape>
+    </item>
+</layer-list>
